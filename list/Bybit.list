@@ -1,0 +1,36 @@
+# Bybit Exchange Rules
+# 核心域名
+host, bybit-exchange.github.io, Proxy
+host, inapps.appsflyer.com, Proxy
+host-suffix, bybit.biz, Proxy
+host-suffix, bybit.com, Proxy
+host-suffix, bycsi.com, Proxy
+host-suffix, bytick.com, Proxy
+host-suffix, byapis.com, Proxy
+host-suffix, bycbe.com, Proxy
+host-suffix, bymj.io, Proxy
+host-suffix, byabcde.com, Proxy
+host-suffix, byapps.net, Proxy
+host-suffix, byd3c3.com, Proxy
+host-suffix, bybdc6.com, Proxy
+host-suffix, byabcd.com, Proxy
+host-suffix, appsflyer.com, Proxy
+host-suffix, appsflyersdk.com, Proxy
+
+
+# Bybit特定的CDN/API域名
+host, api.ffbbbdc6d3c353211fe2ba39c9f744cd.com, Proxy
+host, sc-abtest.ffe390afd658c19dcbf707e0597b846d.de, Proxy
+
+# Bybit服务器IP
+ip-cidr, 13.32.121.6/32, Proxy
+ip-cidr, 43.133.238.145/32, Proxy
+ip-cidr, 13.33.187.108/32, Proxy
+ip-cidr, 150.109.230.182/32, Proxy
+ip-cidr, 142.251.215.234/32, Proxy
+ip-cidr, 43.133.241.84/32, Proxy
+ip-cidr, 3.160.150.37/32, Proxy
+
+# Bybit APP相关
+user-agent, bybit_app*, Proxy
+host-keyword, bybit, Proxy
